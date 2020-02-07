@@ -69,8 +69,8 @@
 		<repositories>
 		  <repository>
 		    <id>prueba</id>
-		    <name>Prueba</name>
-		    <url>http://stefhannya-thinkcentre-m920q:8081/content/repositories/RepositorioPrueba/</url>
+		    <name>RepositorioPrueba</name>
+		    <url>http://stefhannya-thinkcentre-m920q:8081/repository/RepositorioPrueba/</url>
 		  </repository>
 		</repositories>
 	</distributionManagement>
