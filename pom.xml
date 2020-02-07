@@ -64,7 +64,7 @@
     </pluginManagement>
   </build>
 
-	<distributionManagement>
+	<!--<distributionManagement>
 		
 		<repositories>
 		  <repository>
@@ -73,5 +73,5 @@
 		    <url>http://stefhannya-thinkcentre-m920q:8081/repository/RepositorioPrueba/</url>
 		  </repository>
 		</repositories>
-	</distributionManagement>
+	</distributionManagement>-->
 </project>
