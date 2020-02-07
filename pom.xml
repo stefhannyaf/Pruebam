@@ -27,7 +27,12 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+<repositories>
+  <repository>
+    <id>nexus.prueba.com</id>
+    <url>http://stefhannya-thinkcentre-m920q:8081/</url>
+  </repository>
+</repositories>
   <build>
     
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
