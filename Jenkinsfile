@@ -44,6 +44,14 @@ pipeline {
               }
           }
       }
+	
+      stage('SonarQube'){
+		def scannerHome = tool 'sonar_scanner';
+		withSonarQubeEnv('SonarQube'){
+			sh "${scannerHome}/bin/sonar-scanner"
+			
+		}
+      }
       stage('publicar a nexus'){
           steps{
               
