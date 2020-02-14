@@ -136,5 +136,12 @@ pipeline {
                 }                        
               }
           }
+		stage('Desplegar'){
+			steps{
+				script{
+				  sh 'cp target/Pruebam.war' /var/lib/tomcat8/webapps/';
+				}
+			}
+		}
       }
 }
